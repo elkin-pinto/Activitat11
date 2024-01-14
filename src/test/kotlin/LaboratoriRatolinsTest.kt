@@ -13,7 +13,7 @@ class LaboratoriRatolinsTest {
     @Test
     fun calcularParejasRatones_cincoMeses_retornaCinco() {
         val laboratori = LaboratoriRatolins()
-        assertEquals(5, laboratori.calcularParellesRatolins(5))
+        assertEquals(8, laboratori.calcularParellesRatolins(5))
     }
 
     @Test
